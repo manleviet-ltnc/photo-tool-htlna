@@ -1,0 +1,8 @@
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.Properties.Resources.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csproj.GenerateResource.Cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.exe
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.MainForm.resources
