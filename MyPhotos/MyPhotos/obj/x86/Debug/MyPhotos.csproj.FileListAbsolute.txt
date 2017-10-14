@@ -6,3 +6,13 @@ E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.exe
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.pdb
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csprojResolveAssemblyReference.cache
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.MainForm.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.MainForm.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotos.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotos.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
