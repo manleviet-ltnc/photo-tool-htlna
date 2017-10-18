@@ -1,0 +1,11 @@
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoControls.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Debug\MyPhotoAlbum.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csproj.GenerateResource.Cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
