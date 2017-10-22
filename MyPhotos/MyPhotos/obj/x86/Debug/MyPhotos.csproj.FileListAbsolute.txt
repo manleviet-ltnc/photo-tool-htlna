@@ -20,3 +20,5 @@ E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.dll
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoAlbum.pdb
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb

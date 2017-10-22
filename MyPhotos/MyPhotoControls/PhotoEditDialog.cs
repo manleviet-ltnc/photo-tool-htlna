@@ -61,7 +61,7 @@ namespace Manning.MyPhotoControls
             {
                 txtPhotoFile.Text = photo.Filename;
                 txtCaption.Text = photo.Caption;
-                mskDateTaken.Text = photo.DateTaken.ToString();
+                mskDateTaken.Text = photo.DateTaken.ToShortDateString();
                 txtPhotographer.Text = photo.Photographer;
                 txtNotes.Text = photo.Note;
             }
@@ -119,5 +119,6 @@ namespace Manning.MyPhotoControls
                 e.Cancel = (result == DialogResult.Yes);
             }
         }
+
     }
 }
