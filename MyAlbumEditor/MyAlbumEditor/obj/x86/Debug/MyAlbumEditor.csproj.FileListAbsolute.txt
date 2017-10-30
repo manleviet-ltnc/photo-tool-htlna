@@ -1,0 +1,12 @@
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyAlbumEditor.exe
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyAlbumEditor.pdb
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoAlbum.pdb
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\bin\Debug\MyPhotoControls.pdb
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.csprojResolveAssemblyReference.cache
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.EditorForm.resources
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.Properties.Resources.resources
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.csproj.GenerateResource.Cache
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.exe
+E:\github\photo-tool-htlna\MyAlbumEditor\MyAlbumEditor\obj\x86\Debug\MyAlbumEditor.pdb

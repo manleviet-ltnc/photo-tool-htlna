@@ -9,6 +9,7 @@ namespace Manning.MyPhotoAlbum
     public class PhotoAlbum : Collection<Photograph>, IDisposable
     {
         public enum DescriptorOption { FileName, Caption, DateTaken }
+
         private string _title;
         public string Title
         {
@@ -27,6 +28,18 @@ namespace Manning.MyPhotoAlbum
             {
                 _descriptor = value;
                 HasChanged = true;
+            }
+        }
+
+        public string GetDescriptorFormat()
+        {
+            switch (PhotoDescriptor)
+            {
+                case DescriptorOption.Caption: return "c";
+                case DescriptorOption.DateTaken: return "d";
+                case DescriptorOption.FileName:
+                default:
+                    return "f";
             }
         }
         

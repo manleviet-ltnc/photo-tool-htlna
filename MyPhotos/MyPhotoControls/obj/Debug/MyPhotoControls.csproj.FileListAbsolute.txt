@@ -22,3 +22,5 @@ C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Debug
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
