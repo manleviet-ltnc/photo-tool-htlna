@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\ScrollablePictureBoxTest.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\ScrollablePictureBoxTest.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\MyPhotoControls.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\MyPhotoAlbum.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\MyPhotoControls.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.TestForm.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\ScrollablePictureBoxTest\ScrollablePictureBoxTest\obj\x86\Debug\ScrollablePictureBoxTest.pdb

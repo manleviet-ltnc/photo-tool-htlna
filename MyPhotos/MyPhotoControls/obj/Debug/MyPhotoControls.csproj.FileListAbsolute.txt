@@ -9,7 +9,6 @@ E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.dl
 E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.pdb
 E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
 E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
-C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.BaseEditDialog.resources
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PhotoEditDialog.resources
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.PixelDialog.resources
@@ -24,3 +23,4 @@ C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
 E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumEditDialog.resources
 E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Debug\MyPhotoControls.csprojResolveAssemblyReference.cache

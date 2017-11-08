@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyAlbumExplorer.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyAlbumExplorer.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoAlbum.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoControls.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoControls.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.ExplorerForm.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.pdb
