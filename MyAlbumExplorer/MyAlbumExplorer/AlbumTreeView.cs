@@ -116,7 +116,7 @@ namespace MyAlbumExplorer
                 refresh.RefreshNode();
         }
 
-        internal void SaveAlbumChanges()
+        public void SaveAlbumChanges()
         {
             AlbumNode aNode = SelectedNode as AlbumNode;
             if (aNode == null)

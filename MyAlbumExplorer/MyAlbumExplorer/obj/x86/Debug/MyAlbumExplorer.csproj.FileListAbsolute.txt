@@ -10,3 +10,15 @@ C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\ob
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.csproj.GenerateResource.Cache
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.exe
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.pdb
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.exe
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.pdb
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyAlbumExplorer.exe
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyAlbumExplorer.pdb
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoAlbum.pdb
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\bin\Debug\MyPhotoControls.pdb
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.csprojResolveAssemblyReference.cache
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.ExplorerForm.resources
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.Properties.Resources.resources
+E:\github\photo-tool-htlna\MyAlbumExplorer\MyAlbumExplorer\obj\x86\Debug\MyAlbumExplorer.csproj.GenerateResource.Cache

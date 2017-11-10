@@ -93,8 +93,8 @@
             this.tsbPixelData2 = new System.Windows.Forms.ToolStripButton();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.tsdImage = new System.Windows.Forms.ToolStripDropDownButton();
-            this.flybyProvider = new Manning.MyPhotoControls.FlybyTextProvider(this.components);
             this.tssSelect = new System.Windows.Forms.ToolStripSplitButton();
+            this.flybyProvider = new Manning.MyPhotoControls.FlybyTextProvider(this.components);
             this.ctxMenuPhoto.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -120,7 +120,6 @@
             this.mnuAlbumProps,
             this.mnuSlideShow});
             this.ctxMenuPhoto.Name = "ctxMenuPhoto";
-            this.ctxMenuPhoto.OwnerItem = this.mnuView;
             this.ctxMenuPhoto.Size = new System.Drawing.Size(193, 170);
             this.ctxMenuPhoto.Opening += new System.ComponentModel.CancelEventHandler(this.ctxMenuPhoto_Opening);
             // 
@@ -229,6 +228,8 @@
             // 
             this.mnuView.DropDown = this.ctxMenuPhoto;
             this.flybyProvider.SetFlybyText(this.mnuView, null);
+            this.mnuView.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuView.MergeIndex = 2;
             this.mnuView.Name = "mnuView";
             this.mnuView.Size = new System.Drawing.Size(44, 20);
             this.mnuView.Text = "&View";
@@ -261,6 +262,7 @@
             this.toolStripSeparator3,
             this.mnuFileExit});
             this.flybyProvider.SetFlybyText(this.mnuFile, "The File menu");
+            this.mnuFile.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
             this.mnuFile.Name = "mnuFile";
             this.mnuFile.Size = new System.Drawing.Size(37, 20);
             this.mnuFile.Text = "&File";
@@ -270,6 +272,8 @@
             this.flybyProvider.SetFlybyText(this.mnuFileNew, null);
             this.mnuFileNew.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileNew.Image")));
             this.mnuFileNew.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mnuFileNew.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
+            this.mnuFileNew.MergeIndex = 0;
             this.mnuFileNew.Name = "mnuFileNew";
             this.mnuFileNew.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
             this.mnuFileNew.Size = new System.Drawing.Size(146, 22);
@@ -281,6 +285,8 @@
             this.flybyProvider.SetFlybyText(this.mnuFileOpen, null);
             this.mnuFileOpen.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileOpen.Image")));
             this.mnuFileOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mnuFileOpen.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
+            this.mnuFileOpen.MergeIndex = 1;
             this.mnuFileOpen.Name = "mnuFileOpen";
             this.mnuFileOpen.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.mnuFileOpen.Size = new System.Drawing.Size(146, 22);
@@ -289,6 +295,8 @@
             // 
             // toolStripSeparator
             // 
+            this.toolStripSeparator.MergeAction = System.Windows.Forms.MergeAction.Replace;
+            this.toolStripSeparator.MergeIndex = 3;
             this.toolStripSeparator.Name = "toolStripSeparator";
             this.toolStripSeparator.Size = new System.Drawing.Size(143, 6);
             // 
@@ -297,6 +305,8 @@
             this.flybyProvider.SetFlybyText(this.mnuFileSave, "Save the current album");
             this.mnuFileSave.Image = ((System.Drawing.Image)(resources.GetObject("mnuFileSave.Image")));
             this.mnuFileSave.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mnuFileSave.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuFileSave.MergeIndex = 4;
             this.mnuFileSave.Name = "mnuFileSave";
             this.mnuFileSave.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
             this.mnuFileSave.Size = new System.Drawing.Size(146, 22);
@@ -306,6 +316,8 @@
             // mnuFileSaveAs
             // 
             this.flybyProvider.SetFlybyText(this.mnuFileSaveAs, null);
+            this.mnuFileSaveAs.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuFileSaveAs.MergeIndex = 5;
             this.mnuFileSaveAs.Name = "mnuFileSaveAs";
             this.mnuFileSaveAs.Size = new System.Drawing.Size(146, 22);
             this.mnuFileSaveAs.Text = "Save &As";
@@ -313,6 +325,8 @@
             // 
             // toolStripSeparator2
             // 
+            this.toolStripSeparator2.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.toolStripSeparator2.MergeIndex = 6;
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(143, 6);
             // 
@@ -321,6 +335,8 @@
             this.flybyProvider.SetFlybyText(this.mnuFilePrint, null);
             this.mnuFilePrint.Image = ((System.Drawing.Image)(resources.GetObject("mnuFilePrint.Image")));
             this.mnuFilePrint.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mnuFilePrint.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuFilePrint.MergeIndex = 7;
             this.mnuFilePrint.Name = "mnuFilePrint";
             this.mnuFilePrint.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
             this.mnuFilePrint.Size = new System.Drawing.Size(146, 22);
@@ -331,18 +347,24 @@
             this.flybyProvider.SetFlybyText(this.mnuFilePrintPreview, null);
             this.mnuFilePrintPreview.Image = ((System.Drawing.Image)(resources.GetObject("mnuFilePrintPreview.Image")));
             this.mnuFilePrintPreview.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.mnuFilePrintPreview.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuFilePrintPreview.MergeIndex = 8;
             this.mnuFilePrintPreview.Name = "mnuFilePrintPreview";
             this.mnuFilePrintPreview.Size = new System.Drawing.Size(146, 22);
             this.mnuFilePrintPreview.Text = "Print Pre&view";
             // 
             // toolStripSeparator3
             // 
+            this.toolStripSeparator3.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.toolStripSeparator3.MergeIndex = 9;
             this.toolStripSeparator3.Name = "toolStripSeparator3";
             this.toolStripSeparator3.Size = new System.Drawing.Size(143, 6);
             // 
             // mnuFileExit
             // 
             this.flybyProvider.SetFlybyText(this.mnuFileExit, null);
+            this.mnuFileExit.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
+            this.mnuFileExit.MergeIndex = 10;
             this.mnuFileExit.Name = "mnuFileExit";
             this.mnuFileExit.Size = new System.Drawing.Size(146, 22);
             this.mnuFileExit.Text = "E&xit";
@@ -358,6 +380,8 @@
             this.mnuEditAdd,
             this.mnuEditRemove});
             this.flybyProvider.SetFlybyText(this.mnuEdit, null);
+            this.mnuEdit.MergeAction = System.Windows.Forms.MergeAction.Insert;
+            this.mnuEdit.MergeIndex = 1;
             this.mnuEdit.Name = "mnuEdit";
             this.mnuEdit.Size = new System.Drawing.Size(39, 20);
             this.mnuEdit.Text = "&Edit";
@@ -422,6 +446,7 @@
             this.mnuHelp.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuHelpAbout});
             this.flybyProvider.SetFlybyText(this.mnuHelp, null);
+            this.mnuHelp.MergeIndex = 4;
             this.mnuHelp.Name = "mnuHelp";
             this.mnuHelp.Size = new System.Drawing.Size(44, 20);
             this.mnuHelp.Text = "&Help";
@@ -430,7 +455,7 @@
             // 
             this.flybyProvider.SetFlybyText(this.mnuHelpAbout, null);
             this.mnuHelpAbout.Name = "mnuHelpAbout";
-            this.mnuHelpAbout.Size = new System.Drawing.Size(116, 22);
+            this.mnuHelpAbout.Size = new System.Drawing.Size(152, 22);
             this.mnuHelpAbout.Text = "&About...";
             // 
             // statusStrip1
@@ -515,6 +540,8 @@
             this.tsbNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbNew.Image = ((System.Drawing.Image)(resources.GetObject("tsbNew.Image")));
             this.tsbNew.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbNew.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
+            this.tsbNew.MergeIndex = 0;
             this.tsbNew.Name = "tsbNew";
             this.tsbNew.Size = new System.Drawing.Size(23, 22);
             this.tsbNew.Text = "&New";
@@ -525,6 +552,8 @@
             this.tsbOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.tsbOpen.Image = ((System.Drawing.Image)(resources.GetObject("tsbOpen.Image")));
             this.tsbOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.tsbOpen.MergeAction = System.Windows.Forms.MergeAction.MatchOnly;
+            this.tsbOpen.MergeIndex = 1;
             this.tsbOpen.Name = "tsbOpen";
             this.tsbOpen.Size = new System.Drawing.Size(23, 22);
             this.tsbOpen.Text = "&Open";
@@ -656,6 +685,7 @@
             // 
             // toolStripDialogs
             // 
+            this.toolStripDialogs.AllowMerge = false;
             this.toolStripDialogs.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStripDialogs.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsbAlbumProps,
@@ -711,13 +741,14 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.AllowMerge = false;
             this.toolStrip1.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsdImage,
             this.tssSelect});
             this.toolStrip1.Location = new System.Drawing.Point(3, 50);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(150, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(119, 25);
             this.toolStrip1.TabIndex = 5;
             // 
             // tsdImage
@@ -732,10 +763,6 @@
             this.tsdImage.DropDownOpening += new System.EventHandler(this.mnuImage_DropDownOpening);
             this.tsdImage.DropDownItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.mnuImage_DropDownItemClicked);
             // 
-            // flybyProvider
-            // 
-            this.flybyProvider.StatusLabel = this.sttInfo;
-            // 
             // tssSelect
             // 
             this.tssSelect.AutoToolTip = false;
@@ -745,6 +772,10 @@
             this.tssSelect.Name = "tssSelect";
             this.tssSelect.Size = new System.Drawing.Size(54, 22);
             this.tssSelect.Text = "&Select";
+            // 
+            // flybyProvider
+            // 
+            this.flybyProvider.StatusLabel = this.sttInfo;
             // 
             // MainForm
             // 

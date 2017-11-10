@@ -23,3 +23,4 @@ E:\github\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.dll
 C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyPhotos\MyPhotos\bin\Debug\MyPhotoControls.pdb
 E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.SlideShowDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotos\obj\x86\Debug\MyPhotos.ParentForm.resources
