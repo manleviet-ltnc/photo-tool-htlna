@@ -79,7 +79,7 @@ namespace Manning.MyPhotoControls
                 txtCaption.Text = photo.Caption;
                 dtpDateTaken.Value = photo.DateTaken;
                 cmbPhotographer.Text = photo.Photographer;
-                txtNotes.Text = photo.Note;
+                txtNotes.Text = photo.Notes;
             }
         }
         protected override void OnClosing(CancelEventArgs e)
@@ -93,14 +93,16 @@ namespace Manning.MyPhotoControls
             Photograph photo = Photo;
             if (photo != null)
             {
+                photo.BeginEdit();
                 photo.Caption = txtCaption.Text;
                 photo.Photographer = cmbPhotographer.Text;
-                photo.Note = txtNotes.Text;
+                photo.Notes = txtNotes.Text;
                 try
                 {
                     photo.DateTaken = dtpDateTaken.Value;
                 }
                 catch (FormatException) { }
+                photo.EndEdit();
             }
         }
 

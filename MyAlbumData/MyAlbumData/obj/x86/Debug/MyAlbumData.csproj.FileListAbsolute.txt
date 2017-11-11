@@ -1,0 +1,12 @@
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyAlbumData.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyAlbumData.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyPhotoAlbum.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyPhotoControls.dll
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyPhotoAlbum.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\bin\Debug\MyPhotoControls.pdb
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.csprojResolveAssemblyReference.cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.DataForm.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.Properties.Resources.resources
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.csproj.GenerateResource.Cache
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.exe
+C:\Users\pc\Documents\GitHub\photo-tool-htlna\MyAlbumData\MyAlbumData\obj\x86\Debug\MyAlbumData.pdb

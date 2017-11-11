@@ -54,15 +54,19 @@ namespace Manning.MyPhotoAlbum
         }
         static public void WriteAlbum(PhotoAlbum album, string path)
         {
+
             WriteAlbum(album, path, null);
         }
         static private void WritePhoto(StreamWriter sw, Photograph p)
         {
+            if (p.Editing)
+                p.EndEdit();
+
             sw.WriteLine(p.Filename);
             sw.WriteLine(p.Caption != null ? p.Caption : "");
             sw.WriteLine(p.DateTaken.ToString());
             sw.WriteLine(p.Photographer != null ? p.Photographer : "");
-            sw.WriteLine(p.Note != null ? p.Note : "");
+            sw.WriteLine(p.Notes != null ? p.Notes : "");
         }
         static public PhotoAlbum ReadAlbum(string path, string password)
         {
@@ -160,7 +164,7 @@ namespace Manning.MyPhotoAlbum
             p.Caption = sr.ReadLine();
             p.DateTaken = DateTime.Parse(sr.ReadLine());
             p.Photographer = sr.ReadLine();
-            p.Note = sr.ReadLine();
+            p.Notes = sr.ReadLine();
             return p;
         }
         static public bool IsEncrypted(string path)
