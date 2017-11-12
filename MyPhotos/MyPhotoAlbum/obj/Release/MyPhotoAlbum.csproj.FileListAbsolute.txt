@@ -1,0 +1,4 @@
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoAlbum\bin\Release\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoAlbum\bin\Release\MyPhotoAlbum.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoAlbum\obj\Release\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoAlbum\obj\Release\MyPhotoAlbum.pdb

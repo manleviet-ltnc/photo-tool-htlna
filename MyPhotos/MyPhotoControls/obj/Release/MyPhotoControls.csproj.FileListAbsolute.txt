@@ -1,0 +1,13 @@
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Release\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Release\MyPhotoControls.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Release\MyPhotoAlbum.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\bin\Release\MyPhotoAlbum.pdb
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\MyPhotoControls.csprojResolveAssemblyReference.cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\Manning.MyPhotoControls.AlbumEditDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\Manning.MyPhotoControls.AlbumPasswordDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\Manning.MyPhotoControls.BaseEditDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\Manning.MyPhotoControls.PhotoEditDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\Manning.MyPhotoControls.PixelDialog.resources
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\MyPhotoControls.csproj.GenerateResource.Cache
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\MyPhotoControls.dll
+E:\github\photo-tool-htlna\MyPhotos\MyPhotoControls\obj\Release\MyPhotoControls.pdb

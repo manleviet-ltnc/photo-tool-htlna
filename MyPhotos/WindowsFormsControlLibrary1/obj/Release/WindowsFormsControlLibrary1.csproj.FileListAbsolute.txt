@@ -1,0 +1,4 @@
+E:\github\photo-tool-htlna\MyPhotos\WindowsFormsControlLibrary1\bin\Release\WindowsFormsControlLibrary1.dll
+E:\github\photo-tool-htlna\MyPhotos\WindowsFormsControlLibrary1\bin\Release\WindowsFormsControlLibrary1.pdb
+E:\github\photo-tool-htlna\MyPhotos\WindowsFormsControlLibrary1\obj\Release\WindowsFormsControlLibrary1.dll
+E:\github\photo-tool-htlna\MyPhotos\WindowsFormsControlLibrary1\obj\Release\WindowsFormsControlLibrary1.pdb

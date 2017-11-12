@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MyPhotos.exe" version="1.0.0.1" publicKeyToken="e31dee8a3d99d4f0" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Graphicloads-100-Flat-Note.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MyPhotos" version="2.2.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MyPhotos.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyPhotoAlbum.dll" size="17920">
+      <assemblyIdentity name="MyPhotoAlbum" version="5.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>FZAnmpcT6UtBlKowIP3CBI1HN7c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyPhotoControls.dll" size="878592">
+      <assemblyIdentity name="MyPhotoControls" version="7.4.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Qj/Jyr5POXDtN9sn0ahn0Cyg8nk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MyPhotos.exe" size="446464">
+      <assemblyIdentity name="MyPhotos" version="2.2.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>gTyi+bBqhvMGARbfQcZt1fiT+gc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Graphicloads-100-Flat-Note.ico" size="167582">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>UoNa1EGScKfePyZ/HzemDoJoQKc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MyPhotos.exe.config" size="930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>257NYfNed3WNxWASr7rO/GR6zKE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=0ABKQP1RMPK7HFF\Administrator" issuerKeyHash="5fd31ee747ce7565acd87f61bdd2b1ad35d032db" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FkeWj13/3qhq0D7pNGVT71Yo7oI=</DigestValue></Reference></SignedInfo><SignatureValue>tI6nbZPUKH5QzBqgc7JQuijAlxGfQt2B9fR0yNtnuUOCmVhwhPzMwNatrI6rmxWSK0UogDIWj4y600IJD+us3VODjqnBG325qf6Chltpx+QPNGehHYCgorPiBvZpkDzxDEWJaGjNmRm3W6eg14lae5ZQagNzEdT+dRcRzZNLHCY=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ziFrICCd9BMLXNfqG/KrNcnRmf2+XMbtBttfULtMFtV17u5jhCtWS7mUbCg4dFN0o5a5si8W3nBPLNeSDMYtmuA4CPfawiF3ftpnH2F0IcUHTz6Ai80EjNUhsRsHIA6SgJxVHLoEwfm4iVu9OAYhf0mzCdQ3j2MDijT51Nsr5iM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="82ee2856ef536534e93ed06aa8deff5d8f964716" Description="" Url=""><as:assemblyIdentity name="MyPhotos.exe" version="1.0.0.1" publicKeyToken="e31dee8a3d99d4f0" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=0ABKQP1RMPK7HFF\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6nNnxdgRhfCi+y5ihMy731clgbU=</DigestValue></Reference></SignedInfo><SignatureValue>qpTvif41Fj/LGs4epK7V+rMjzjJKPv4R3g2kX3e1UhdhAazM5Mgx4Yq0UPAhPjJ09nMqfxCYjxtXwfc+EaDg5TNJi2p6NCAuB3MIEQ2YHGAR0Y0nvx+gtBWPDoDXqhlIHPJb+2BGdc3Jb6SLCfiBggxQ7sdOMACOVItLdLQ/l5o=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ziFrICCd9BMLXNfqG/KrNcnRmf2+XMbtBttfULtMFtV17u5jhCtWS7mUbCg4dFN0o5a5si8W3nBPLNeSDMYtmuA4CPfawiF3ftpnH2F0IcUHTz6Ai80EjNUhsRsHIA6SgJxVHLoEwfm4iVu9OAYhf0mzCdQ3j2MDijT51Nsr5iM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICDTCCAXagAwIBAgIQQARMlTUXYrFK32+yjwb9KjANBgkqhkiG9w0BAQUFADBFMUMwQQYDVQQDHjoAMABBAEIASwBRAFAAMQBSAE0AUABLADcASABGAEYAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTE3MTExMjE3NDM0NloXDTE4MTExMjIzNDM0NlowRTFDMEEGA1UEAx46ADAAQQBCAEsAUQBQADEAUgBNAFAASwA3AEgARgBGAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAziFrICCd9BMLXNfqG/KrNcnRmf2+XMbtBttfULtMFtV17u5jhCtWS7mUbCg4dFN0o5a5si8W3nBPLNeSDMYtmuA4CPfawiF3ftpnH2F0IcUHTz6Ai80EjNUhsRsHIA6SgJxVHLoEwfm4iVu9OAYhf0mzCdQ3j2MDijT51Nsr5iMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQB0WX8jlCv2HySaiTTqtGKms6ikBcR/zAsF47imsbMKLFumHFllwVa7/xbczZE4a1zguuYmD0lP3JR67/DJRUq5kBODZw+BxsfgGoehczwlFmD9L18jXTj9DMyPtUTbFexJtxDFuXcHLx7eP2C/4vJxFa64PUlOdljoIcwEZnfEaw==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
